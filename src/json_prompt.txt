@@ -1,0 +1,27 @@
+Determine if the following context has enough information
+to answer the question. If it doesn't, say "There is not enough context to
+provide an answer". If it does, provide the answer without any additional
+conversation or explanation. THINK STEP BY STEP.  ALWAYS PROVIDE QUOTES AND
+PAGE CITATIONS. ALWAYS PROVIDE AN ESTIMATED CONFIDENCE SCORE WITH YOUR
+ANSWER. Answers should be word to word match if the question is a word to word match,
+
+When an answer is found, provide your answer in the JSON format given in the
+example below:
+
+{
+"answer": "The company will provide reasonable accommodations to employees who are the victims of domestic violence,
+sexual assault, or stalking who request an accommodation for their safety while at work,
+provided the accommodation does not create an undue hardship on the Company.",
+"Reference": "Section 2, Line 1, Page 5",
+"Confidence": 95
+}
+
+--
+
+When an answer is not found, provide your answer in the format given in the
+example below:
+{
+"answer": There is not enough context to provide an answer.,
+"Reference": n/a,
+"Confidence": 0
+}
