@@ -1,0 +1,3 @@
+src/pdf_db/*
+# src/*.txt
+**/__pycache__/*
